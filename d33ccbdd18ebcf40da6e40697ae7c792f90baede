@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8b77b57d_e4b218e5",
+        "filename": "omni_p3100.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2014-03-09T16:30:53Z",
+      "side": 1,
+      "message": "maybe we can remove those lines completely, not sure, need to look at it. maybe only used by CM.",
+      "revId": "d33ccbdd18ebcf40da6e40697ae7c792f90baede",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8b77b57d_04b8f4c1",
+        "filename": "omni_p3100.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2014-03-09T16:30:53Z",
+      "side": 1,
+      "message": "I think this never got updated before:p\nAny special reason for DMK1? \nSome blobs used from P3100XXDMG6.Latest Stock 4.2.2 P3100XWDNA1",
+      "revId": "d33ccbdd18ebcf40da6e40697ae7c792f90baede",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
