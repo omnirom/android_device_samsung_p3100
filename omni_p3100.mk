@@ -28,11 +28,16 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/samsung/p3100/full_p3100.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := p3100
-PRODUCT_NAME := omni_p3100
-PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-P3100
+PRODUCT_BRAND := samsung
+PRODUCT_NAME := omni_p3100
+PRODUCT_DEVICE := p3100
 PRODUCT_MANUFACTURER := samsung
 
 #Set build fingerprint / ID / Prduct Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=espressorfxx TARGET_DEVICE=espressorf BUILD_FINGERPRINT=samsung/espressorfxx/espressorf:4.0.3/IML74K/P3100XWALE2:user/release-keys PRIVATE_BUILD_DESC="espressorfxx-user 4.0.3 IML74K P3100XWALE2 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=espressorfxx \
+    PRODUCT_DEVICE=espressorf \
+    TARGET_DEVICE=espressorf \
+    PRIVATE_BUILD_DESC="espressorfxx-user 4.2.2 JDQ39 P3100XWDMK1 release-keys" \
+    BUILD_FINGERPRINT="samsung/espressorfxx/espressorf:4.2.2/JDQ39/P3100XWDMK1:user/release-keys"
