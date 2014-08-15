@@ -50,6 +50,9 @@
        SensorsPowerSave="false"
        SensorsLog="false"
 
+       AssertEnabled="false"
+       SensorsBaroEnable="false"
+
    />
 
   <gll
