@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ab30f9cd_50ef22ac",
+        "filename": "selinux/domain.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000515
+      },
+      "writtenOn": "2015-01-05T13:06:12Z",
+      "side": 1,
+      "message": "powervr_device is not present at LP I think that you can use gpu_device instead",
+      "range": {
+        "startLine": 2,
+        "startChar": 14,
+        "endLine": 2,
+        "endChar": 15
+      },
+      "revId": "dfe758d6e695b1862ea29a6c072cc022fc147c27",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
