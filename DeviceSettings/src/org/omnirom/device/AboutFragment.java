@@ -28,7 +28,7 @@ import android.widget.Button;
 
 import org.omnirom.device.R;
 
-public class AboutActivity extends Fragment {
+public class AboutFragment extends Fragment {
 
     private static final String PREF_ENABLED = "1";
     private static final String TAG = "GalaxyTab2Settings_About";
